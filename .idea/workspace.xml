@@ -5,7 +5,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.Executable】 反射元素-可执行元素，比如：Constructor和Method">
+    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.Member】 反射元素-成员元素，例如：Constructor/Method/Field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" afterDir="false" />
@@ -27,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/src/java/lang/module/ModuleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/module/ModuleReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/module/ModuleReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/module/ModuleReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/module/ResolvedModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/module/ResolvedModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedArrayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedArrayType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedParameterizedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedParameterizedType.java" afterDir="false" />
@@ -219,7 +218,7 @@
     <fileColor scope="OpenJDK-11" color="99ffcc" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="228" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -405,10 +404,10 @@
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Field.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Constructor.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Executable.java" />
-        <option value="$PROJECT_DIR$/已阅代码清单_按功能排序.md" />
-        <option value="$PROJECT_DIR$/已阅代码清单_按名称排序.md" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Member.java" />
+        <option value="$PROJECT_DIR$/已阅代码清单_按名称排序.md" />
+        <option value="$PROJECT_DIR$/已阅代码清单_按功能排序.md" />
       </list>
     </option>
   </component>
@@ -511,14 +510,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
@@ -543,7 +568,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/TAG.java&#10;true" />
     <property name="android.sdk.path" value="D:/SDK-IDEA" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549043498485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549210024807" />
     <property name="last.edited.regexp" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -732,13 +757,7 @@
       <workItem from="1548897871645" duration="261000" />
       <workItem from="1548952144116" duration="609000" />
       <workItem from="1549042844465" duration="659000" />
-    </task>
-    <task id="LOCAL-00293" summary=":bulb: 【jdk.internal.math.DoubleConsts】 双精度浮点数结构常量">
-      <created>1546535892481</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1546535892481</updated>
+      <workItem from="1549207893796" duration="999000" />
     </task>
     <task id="LOCAL-00294" summary=":bulb: 【java.lang.String】 字符串">
       <created>1546625753248</created>
@@ -1076,11 +1095,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549042967654</updated>
     </task>
-    <option name="localTasksCounter" value="342" />
+    <task id="LOCAL-00342" summary=":bulb: 【java.lang.reflect.AccessibleObject】 反射元素-可访问的元素，例如：Constructor/Method/Field">
+      <created>1549208067754</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1549208067756</updated>
+    </task>
+    <option name="localTasksCounter" value="343" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2287813000" />
+    <option name="totallyTimeSpent" value="2288812000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1095,7 +1121,7 @@
     <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32995737" />
-      <window_info content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.20651574" />
+      <window_info active="true" content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.15240198" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1114,7 +1140,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.55910546" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5055249" side_tool="true" weight="0.32271764" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49447513" visible="true" weight="0.30997878" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49447513" visible="true" weight="0.30997878" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.3280255" />
       <window_info anchor="bottom" id="Messages" order="15" />
@@ -1275,7 +1301,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value=":recycle: 【java.lang.Thread】 添加对未捕获异常处理器的理解" />
     <MESSAGE value=":white_check_mark: 【java.lang.Thread】 实现未捕获异常处理器接口" />
     <MESSAGE value=":bulb: 【java.lang.Enum】 可以看作是所有enum的包装类" />
     <MESSAGE value=":white_check_mark: 【java.lang.Enum】 枚举使用方法" />
@@ -1300,20 +1325,14 @@
     <MESSAGE value=":bulb: 【java.lang.reflect.Field】 反射元素-字段" />
     <MESSAGE value=":bulb: 【java.lang.reflect.Constructor】 反射元素-构造器" />
     <MESSAGE value=":bulb: 【java.lang.reflect.Executable】 反射元素-可执行元素，比如：Constructor和Method" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.Executable】 反射元素-可执行元素，比如：Constructor和Method" />
+    <MESSAGE value=":bulb: 【java.lang.reflect.AccessibleObject】 反射元素-可访问的元素，例如：Constructor/Method/Field" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.AccessibleObject】 反射元素-可访问的元素，例如：Constructor/Method/Field" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javax/swing/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="296" column="20" lean-forward="true" selection-start-line="296" selection-start-column="20" selection-end-line="296" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -3562,26 +3581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="92" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -3680,78 +3679,6 @@
             <element signature="e#25390#25452#0" />
             <element signature="e#25609#25659#1" />
             <element signature="e#25665#25854#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#Member#0" />
-            <element signature="docComment;field#PUBLIC#0;class#Member#0" />
-            <element signature="docComment;field#DECLARED#0;class#Member#0" />
-            <element signature="docComment;method#getDeclaringClass#0;class#Member#0" />
-            <element signature="docComment;method#getName#0;class#Member#0" />
-            <element signature="docComment;method#getModifiers#0;class#Member#0" />
-            <element signature="docComment;method#isSynthetic#0;class#Member#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#AccessibleObject#0" />
-            <element signature="docComment;field#reflectionFactory#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#AccessibleObject#0;class#AccessibleObject#0" />
-            <element signature="method#AccessibleObject#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#setAccessible#0;class#AccessibleObject#0" />
-            <element signature="method#setAccessible#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#setAccessible#1;class#AccessibleObject#0" />
-            <element signature="method#setAccessible#1;class#AccessibleObject#0" />
-            <element signature="docComment;method#trySetAccessible#0;class#AccessibleObject#0" />
-            <element signature="method#trySetAccessible#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#canAccess#0;class#AccessibleObject#0" />
-            <element signature="method#canAccess#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#isAccessible#0;class#AccessibleObject#0" />
-            <element signature="method#isAccessible#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#isAnnotationPresent#0;class#AccessibleObject#0" />
-            <element signature="method#isAnnotationPresent#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getAnnotations#0;class#AccessibleObject#0" />
-            <element signature="method#getAnnotations#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getAnnotation#0;class#AccessibleObject#0" />
-            <element signature="method#getAnnotation#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getAnnotationsByType#0;class#AccessibleObject#0" />
-            <element signature="method#getAnnotationsByType#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getDeclaredAnnotations#0;class#AccessibleObject#0" />
-            <element signature="method#getDeclaredAnnotations#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getDeclaredAnnotation#0;class#AccessibleObject#0" />
-            <element signature="method#getDeclaredAnnotation#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AccessibleObject#0" />
-            <element signature="method#getDeclaredAnnotationsByType#0;class#AccessibleObject#0" />
-            <element signature="method#checkPermission#0;class#AccessibleObject#0" />
-            <element signature="method#checkCanSetAccessible#0;class#AccessibleObject#0" />
-            <element signature="method#checkAccess#0;class#AccessibleObject#0" />
-            <element signature="method#verifyAccess#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#setAccessible0#0;class#AccessibleObject#0" />
-            <element signature="method#setAccessible0#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#checkCanSetAccessible#1;class#AccessibleObject#0" />
-            <element signature="method#checkCanSetAccessible#1;class#AccessibleObject#0" />
-            <element signature="docComment;method#toShortString#0;class#AccessibleObject#0" />
-            <element signature="method#toShortString#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#getRoot#0;class#AccessibleObject#0" />
-            <element signature="method#getRoot#0;class#AccessibleObject#0" />
-            <element signature="docComment;method#printStackTraceWhenAccessFails#0;class#AccessibleObject#0" />
-            <element signature="method#printStackTraceWhenAccessFails#0;class#AccessibleObject#0" />
-            <element signature="method#checkCanSetAccessible#2;class#AccessibleObject#0" />
-            <element signature="method#isSubclassOf#0;class#AccessibleObject#0" />
-            <element signature="method#logIfOpenedForIllegalAccess#0;class#AccessibleObject#0" />
-            <element signature="method#logIfExportedForIllegalAccess#0;class#AccessibleObject#0" />
-            <element signature="method#slowVerifyAccess#0;class#AccessibleObject#0" />
           </folding>
         </state>
       </provider>
@@ -3863,6 +3790,105 @@
             <element signature="e#31724#32227#1" />
             <element signature="e#31825#31912#1" />
             <element signature="e#31918#32156#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#AccessibleObject#0" />
+            <element signature="docComment;field#reflectionFactory#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#AccessibleObject#0;class#AccessibleObject#0" />
+            <element signature="method#AccessibleObject#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#setAccessible#0;class#AccessibleObject#0" />
+            <element signature="method#setAccessible#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#setAccessible#1;class#AccessibleObject#0" />
+            <element signature="method#setAccessible#1;class#AccessibleObject#0" />
+            <element signature="docComment;method#trySetAccessible#0;class#AccessibleObject#0" />
+            <element signature="method#trySetAccessible#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#canAccess#0;class#AccessibleObject#0" />
+            <element signature="method#canAccess#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#isAccessible#0;class#AccessibleObject#0" />
+            <element signature="method#isAccessible#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#isAnnotationPresent#0;class#AccessibleObject#0" />
+            <element signature="method#isAnnotationPresent#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getAnnotations#0;class#AccessibleObject#0" />
+            <element signature="method#getAnnotations#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getAnnotation#0;class#AccessibleObject#0" />
+            <element signature="method#getAnnotation#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getAnnotationsByType#0;class#AccessibleObject#0" />
+            <element signature="method#getAnnotationsByType#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getDeclaredAnnotations#0;class#AccessibleObject#0" />
+            <element signature="method#getDeclaredAnnotations#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getDeclaredAnnotation#0;class#AccessibleObject#0" />
+            <element signature="method#getDeclaredAnnotation#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AccessibleObject#0" />
+            <element signature="method#getDeclaredAnnotationsByType#0;class#AccessibleObject#0" />
+            <element signature="method#checkPermission#0;class#AccessibleObject#0" />
+            <element signature="method#checkCanSetAccessible#0;class#AccessibleObject#0" />
+            <element signature="method#checkAccess#0;class#AccessibleObject#0" />
+            <element signature="method#verifyAccess#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#setAccessible0#0;class#AccessibleObject#0" />
+            <element signature="method#setAccessible0#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#checkCanSetAccessible#1;class#AccessibleObject#0" />
+            <element signature="method#checkCanSetAccessible#1;class#AccessibleObject#0" />
+            <element signature="docComment;method#toShortString#0;class#AccessibleObject#0" />
+            <element signature="method#toShortString#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#getRoot#0;class#AccessibleObject#0" />
+            <element signature="method#getRoot#0;class#AccessibleObject#0" />
+            <element signature="docComment;method#printStackTraceWhenAccessFails#0;class#AccessibleObject#0" />
+            <element signature="method#printStackTraceWhenAccessFails#0;class#AccessibleObject#0" />
+            <element signature="method#checkCanSetAccessible#2;class#AccessibleObject#0" />
+            <element signature="method#isSubclassOf#0;class#AccessibleObject#0" />
+            <element signature="method#logIfOpenedForIllegalAccess#0;class#AccessibleObject#0" />
+            <element signature="method#logIfExportedForIllegalAccess#0;class#AccessibleObject#0" />
+            <element signature="method#slowVerifyAccess#0;class#AccessibleObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Member#0" />
+            <element signature="docComment;field#PUBLIC#0;class#Member#0" />
+            <element signature="docComment;field#DECLARED#0;class#Member#0" />
+            <element signature="docComment;method#getDeclaringClass#0;class#Member#0" />
+            <element signature="docComment;method#getName#0;class#Member#0" />
+            <element signature="docComment;method#getModifiers#0;class#Member#0" />
+            <element signature="docComment;method#isSynthetic#0;class#Member#0" />
           </folding>
         </state>
       </provider>
