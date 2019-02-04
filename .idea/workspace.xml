@@ -5,7 +5,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.Member】 反射元素-成员元素，例如：Constructor/Method/Field">
+    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.AnnotatedElement】 反射元素-表示可被注解的元素，例如类、方法、构造器、字段、参数、模块、包等">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" afterDir="false" />
@@ -35,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedWildcardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedWildcardType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/GenericArrayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/GenericArrayType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/InvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/InvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Modifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" afterDir="false" />
@@ -217,38 +216,42 @@
     <fileColor scope="OpenJDK-11" color="99ffcc" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="80">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <element signature="docComment;class#GenericDeclaration#0" />
-                <element signature="docComment;method#getTypeParameters#0;class#GenericDeclaration#0" />
+                <element signature="docComment;class#AnnotatedElement#0" />
+                <element signature="docComment;method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+                <element signature="method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+                <element signature="docComment;method#getAnnotations#0;class#AnnotatedElement#0" />
+                <element signature="docComment;method#getAnnotation#0;class#AnnotatedElement#0" />
+                <element signature="docComment;method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+                <element signature="method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+                <element signature="e#16002#16323#1" />
+                <element signature="e#16123#16313#1" />
+                <element signature="e#16141#16194#0" />
+                <element signature="docComment;method#getDeclaredAnnotations#0;class#AnnotatedElement#0" />
+                <element signature="docComment;method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+                <element signature="method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+                <element signature="e#18280#18544#1" />
+                <element signature="e#18350#18534#1" />
+                <element signature="e#18368#18422#0" />
+                <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
+                <element signature="method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="448">
-                <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <first_editor relative-caret-position="80">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -344,7 +347,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javax/lang/model/type/TypeVariable.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/NullType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/UnionType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/IntersectionType.java" />
@@ -443,6 +445,7 @@
         <option value="$PROJECT_DIR$/src/java/lang/reflect/AccessibleObject.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Member.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java" />
+        <option value="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java" />
         <option value="$PROJECT_DIR$/已阅代码清单_按名称排序.md" />
         <option value="$PROJECT_DIR$/已阅代码清单_按功能排序.md" />
       </list>
@@ -547,7 +550,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -591,6 +593,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,7 +608,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/TAG.java&#10;true" />
     <property name="android.sdk.path" value="D:/SDK-IDEA" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549210419464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549302543117" />
     <property name="last.edited.regexp" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -794,14 +797,8 @@
       <workItem from="1548897871645" duration="261000" />
       <workItem from="1548952144116" duration="609000" />
       <workItem from="1549042844465" duration="659000" />
-      <workItem from="1549207893796" duration="1359000" />
-    </task>
-    <task id="LOCAL-00295" summary=":bulb: 【java.lang.StringBuilder】 非线程安全的字符序列，适合单线程下操作大量字符，内部实现为字节数组">
-      <created>1546704791955</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1546704791955</updated>
+      <workItem from="1549207893796" duration="1772000" />
+      <workItem from="1549302162637" duration="281000" />
     </task>
     <task id="LOCAL-00296" summary=":bulb: 【java.lang.StringBuffer】 线程安全的字符序列，适合多线程下操作大量字符，内部实现为字节数组">
       <created>1546791693559</created>
@@ -1139,11 +1136,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549210091238</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary=":bulb: 【java.lang.reflect.GenericDeclaration】 反射元素-泛型元素，指有能力引入泛型声明的元素，比如类、方法、构造器">
+      <created>1549210499118</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1549210499118</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2289172000" />
+    <option name="totallyTimeSpent" value="2289866000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1155,11 +1159,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
+    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.15240198" />
+      <window_info content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.1539735" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1178,7 +1182,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.55910546" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5055249" side_tool="true" weight="0.32271764" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49447513" visible="true" weight="0.30997878" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49447513" visible="true" weight="0.30997878" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.3280255" />
       <window_info anchor="bottom" id="Messages" order="15" />
@@ -1339,7 +1343,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value=":bulb: 【java.lang.Enum】 可以看作是所有enum的包装类" />
     <MESSAGE value=":white_check_mark: 【java.lang.Enum】 枚举使用方法" />
     <MESSAGE value=":bulb: 【java.util.Enumeration】 枚举器接口，跟迭代器接口很像，只用于遍历，没有移除功能" />
     <MESSAGE value=":bulb: 【java.lang.CompoundEnumeration】 复合枚举类型，用于遍历" />
@@ -1364,7 +1367,8 @@
     <MESSAGE value=":bulb: 【java.lang.reflect.Executable】 反射元素-可执行元素，比如：Constructor和Method" />
     <MESSAGE value=":bulb: 【java.lang.reflect.AccessibleObject】 反射元素-可访问的元素，例如：Constructor/Method/Field" />
     <MESSAGE value=":bulb: 【java.lang.reflect.Member】 反射元素-成员元素，例如：Constructor/Method/Field" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.Member】 反射元素-成员元素，例如：Constructor/Method/Field" />
+    <MESSAGE value=":bulb: 【java.lang.reflect.GenericDeclaration】 反射元素-泛型元素，指有能力引入泛型声明的元素，比如类、方法、构造器" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.GenericDeclaration】 反射元素-泛型元素，指有能力引入泛型声明的元素，比如类、方法、构造器" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -2460,13 +2464,6 @@
             <element signature="method#readObject#0;class#Enum#0" />
             <element signature="method#readObjectNoData#0;class#Enum#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="412" column="37" selection-start-line="412" selection-start-column="37" selection-end-line="412" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -3887,16 +3884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -3915,8 +3902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="96">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding>
             <element signature="docComment;class#GenericDeclaration#0" />
             <element signature="docComment;method#getTypeParameters#0;class#GenericDeclaration#0" />
@@ -3924,13 +3911,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="976">
+            <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="448">
-            <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+          <first_editor relative-caret-position="80">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="docComment;class#AnnotatedElement#0" />
+            <element signature="docComment;method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+            <element signature="method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotations#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="e#16002#16323#1" />
+            <element signature="e#16123#16313#1" />
+            <element signature="e#16141#16194#0" />
+            <element signature="docComment;method#getDeclaredAnnotations#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="e#18280#18544#1" />
+            <element signature="e#18350#18534#1" />
+            <element signature="e#18368#18422#0" />
+            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
+          </folding>
         </state>
       </provider>
     </entry>
