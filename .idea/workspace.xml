@@ -5,7 +5,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.Parameter】 反射元素-形参">
+    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.Package】 反射元素-包">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" afterDir="false" />
@@ -36,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/GenericArrayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/GenericArrayType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/InvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/InvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Modifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Proxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/ProxyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/ProxyGenerator.java" afterDir="false" />
@@ -217,59 +216,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Parameter.java">
+        <entry file="file://$PROJECT_DIR$/src/java/lang/Package.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="330" column="4" lean-forward="true" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
+            <state relative-caret-position="192">
+              <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
               <folding>
-                <element signature="docComment;class#Parameter#0" />
-                <element signature="e#2188#2741#0" />
-                <element signature="e#2188#2953#0" />
-                <element signature="e#3178#3356#0" />
-                <element signature="e#3178#3436#0" />
-                <element signature="e#3661#3948#0" />
-                <element signature="e#3661#4202#0" />
-                <element signature="e#4069#4176#1" />
-                <element signature="e#4212#4507#0" />
-                <element signature="e#4212#4785#0" />
-                <element signature="e#4634#4750#1" />
-                <element signature="e#5011#5543#0" />
-                <element signature="e#5011#5906#0" />
-                <element signature="e#5605#5664#0" />
-                <element signature="e#6132#6716#0" />
-                <element signature="e#6132#7281#0" />
-                <element signature="e#7505#7537#0" />
-                <element signature="e#7505#7652#0" />
-                <element signature="e#7662#7751#0" />
-                <element signature="e#7662#7990#0" />
-                <element signature="e#8000#8089#0" />
-                <element signature="e#8000#8407#0" />
-                <element signature="e#8417#8449#0" />
-                <element signature="e#8417#8591#0" />
-                <element signature="e#8601#8662#0" />
-                <element signature="e#8601#8976#0" />
-                <element signature="e#8782#8841#0" />
-                <element signature="e#8986#9047#0" />
-                <element signature="e#8986#9415#0" />
-                <element signature="e#9212#9271#0" />
-                <element signature="e#9425#9764#0" />
-                <element signature="e#9425#9932#0" />
-                <element signature="e#10156#10306#0" />
-                <element signature="e#10156#10409#0" />
-                <element signature="e#10419#10790#0" />
-                <element signature="e#10419#10955#0" />
-                <element signature="e#10965#11262#0" />
-                <element signature="e#10965#11395#0" />
-                <element signature="e#11405#11779#0" />
-                <element signature="e#11405#11896#0" />
-                <element signature="e#11906#12148#0" />
-                <element signature="e#11906#12290#0" />
-                <element signature="e#12413#12595#0" />
-                <element signature="e#12413#12841#0" />
-                <element signature="e#12673#12813#1" />
-                <element signature="e#12851#13018#0" />
-                <element signature="e#12851#13098#0" />
-                <element signature="e#13133#13238#0" />
+                <element signature="docComment;class#Package#0" />
+                <element signature="docComment;method#Package#0;class#Package#0" />
+                <element signature="method#Package#0;class#Package#0" />
+                <element signature="method#Package#1;class#Package#0" />
+                <element signature="docComment;method#getPackage#0;class#Package#0" />
+                <element signature="e#9182#9198#0" />
+                <element signature="method#getPackage#0;class#Package#0" />
+                <element signature="docComment;method#getPackages#0;class#Package#0" />
+                <element signature="method#getPackages#0;class#Package#0" />
+                <element signature="docComment;method#getName#0;class#Package#0" />
+                <element signature="method#getName#0;class#Package#0" />
+                <element signature="docComment;method#getSpecificationTitle#0;class#Package#0" />
+                <element signature="method#getSpecificationTitle#0;class#Package#0" />
+                <element signature="docComment;method#getSpecificationVersion#0;class#Package#0" />
+                <element signature="method#getSpecificationVersion#0;class#Package#0" />
+                <element signature="docComment;method#getSpecificationVendor#0;class#Package#0" />
+                <element signature="method#getSpecificationVendor#0;class#Package#0" />
+                <element signature="docComment;method#getImplementationTitle#0;class#Package#0" />
+                <element signature="method#getImplementationTitle#0;class#Package#0" />
+                <element signature="docComment;method#getImplementationVersion#0;class#Package#0" />
+                <element signature="method#getImplementationVersion#0;class#Package#0" />
+                <element signature="docComment;method#getImplementationVendor#0;class#Package#0" />
+                <element signature="method#getImplementationVendor#0;class#Package#0" />
+                <element signature="docComment;method#isSealed#0;class#Package#0" />
+                <element signature="method#isSealed#0;class#Package#0" />
+                <element signature="docComment;method#isSealed#1;class#Package#0" />
+                <element signature="method#isSealed#1;class#Package#0" />
+                <element signature="e#15150#15206#1" />
+                <element signature="e#15212#15401#1" />
+                <element signature="e#15230#15344#0" />
+                <element signature="docComment;method#isAnnotationPresent#0;class#Package#0" />
+                <element signature="method#isAnnotationPresent#0;class#Package#0" />
+                <element signature="docComment;method#getAnnotations#0;class#Package#0" />
+                <element signature="method#getAnnotations#0;class#Package#0" />
+                <element signature="docComment;method#getAnnotation#0;class#Package#0" />
+                <element signature="method#getAnnotation#0;class#Package#0" />
+                <element signature="docComment;method#getAnnotationsByType#0;class#Package#0" />
+                <element signature="method#getAnnotationsByType#0;class#Package#0" />
+                <element signature="docComment;method#getDeclaredAnnotations#0;class#Package#0" />
+                <element signature="method#getDeclaredAnnotations#0;class#Package#0" />
+                <element signature="docComment;method#getDeclaredAnnotation#0;class#Package#0" />
+                <element signature="method#getDeclaredAnnotation#0;class#Package#0" />
+                <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#Package#0" />
+                <element signature="method#getDeclaredAnnotationsByType#0;class#Package#0" />
+                <element signature="docComment;method#isCompatibleWith#0;class#Package#0" />
+                <element signature="method#isCompatibleWith#0;class#Package#0" />
+                <element signature="e#18882#18962#1" />
+                <element signature="e#19116#19268#1" />
+                <element signature="e#19406#19558#1" />
+                <element signature="e#19653#19857#1" />
+                <element signature="docComment;method#hashCode#0;class#Package#0" />
+                <element signature="method#hashCode#0;class#Package#0" />
+                <element signature="docComment;method#toString#0;class#Package#0" />
+                <element signature="method#toString#0;class#Package#0" />
+                <element signature="method#getPackageInfo#0;class#Package#0" />
+                <element signature="e#21292#21357#1" />
+                <element signature="e#21363#21432#1" />
+                <element signature="e#21472#21520#1" />
+                <element signature="e#21526#21732#1" />
+                <element signature="class#21622:21664" />
+                <element signature="docComment;class#VersionInfo#0;class#Package#0" />
+                <element signature="class#VersionInfo#0;class#Package#0" />
+                <element signature="method#VersionInfo#0;class#VersionInfo#0;class#Package#0" />
+                <element signature="method#getInstance#0;class#VersionInfo#0;class#Package#0" />
+                <element signature="e#23148#23205#1" />
               </folding>
             </state>
           </provider>
@@ -279,8 +295,8 @@
         <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="16">
-                <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <first_editor relative-caret-position="448">
+                <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -291,8 +307,8 @@
         <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="68" column="52" lean-forward="true" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+              <first_editor relative-caret-position="512">
+                <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -388,7 +404,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javax/lang/model/type/UnionType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/IntersectionType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/TypeKind.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/ErrorType.java" />
@@ -405,7 +420,6 @@
         <option value="$PROJECT_DIR$/src/java/lang/StringBuffer.java" />
         <option value="$PROJECT_DIR$/src/jdk/internal/reflect/Reflection.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/java/lang/Module.java" />
         <option value="$PROJECT_DIR$/src/java/lang/module/ModuleReader.java" />
         <option value="$PROJECT_DIR$/src/java/lang/module/ModuleDescriptor.java" />
         <option value="$PROJECT_DIR$/src/java/lang/module/ModuleReference.java" />
@@ -486,9 +500,11 @@
         <option value="$PROJECT_DIR$/src/java/lang/reflect/Member.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/GenericDeclaration.java" />
         <option value="$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java" />
+        <option value="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" />
+        <option value="$PROJECT_DIR$/src/java/lang/Module.java" />
         <option value="$PROJECT_DIR$/已阅代码清单_按功能排序.md" />
         <option value="$PROJECT_DIR$/已阅代码清单_按名称排序.md" />
-        <option value="$PROJECT_DIR$/src/java/lang/reflect/Parameter.java" />
+        <option value="$PROJECT_DIR$/src/java/lang/Package.java" />
       </list>
     </option>
   </component>
@@ -591,6 +607,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -620,21 +637,12 @@
             <path>
               <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,7 +657,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/TAG.java&#10;true" />
     <property name="android.sdk.path" value="D:/SDK-IDEA" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549302933261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549470963663" />
     <property name="last.edited.regexp" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -840,13 +848,8 @@
       <workItem from="1549042844465" duration="659000" />
       <workItem from="1549207893796" duration="1772000" />
       <workItem from="1549302162637" duration="770000" />
-    </task>
-    <task id="LOCAL-00297" summary=":bulb: 【java.lang.AbstractStringBuilder】 字符序列的抽象实现，是StringBuilder和StringBuffer的父类">
-      <created>1546879830629</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1546879830630</updated>
+      <workItem from="1549389088649" duration="457000" />
+      <workItem from="1549470662512" duration="297000" />
     </task>
     <task id="LOCAL-00298" summary=":bulb: 【java.lang.StringLatin1】 LATIN1-String">
       <created>1546965696932</created>
@@ -1184,11 +1187,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549302594267</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary=":bulb: 【java.lang.reflect.Parameter】 反射元素-形参">
+      <created>1549389213762</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1549389213763</updated>
+    </task>
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2290355000" />
+    <option name="totallyTimeSpent" value="2291109000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1204,7 +1214,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.1539735" />
+      <window_info active="true" content_ui="combo" x="762" y="70" width="395" height="899" id="Project" order="1" sideWeight="0.44827586" visible="true" weight="0.15728477" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1384,7 +1394,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value=":bulb: 【java.util.Enumeration】 枚举器接口，跟迭代器接口很像，只用于遍历，没有移除功能" />
     <MESSAGE value=":bulb: 【java.lang.CompoundEnumeration】 复合枚举类型，用于遍历" />
     <MESSAGE value=":bulb: 【java.util.Iterator】 迭代器接口，跟枚举器接口很像，可以遍历元素，也可以移除元素。关键是，支持foreach遍历方式" />
     <MESSAGE value=":bulb: 【java.io.Serializable】 将对象序列化/反序列化，是对象的一种固化行为" />
@@ -1409,37 +1418,14 @@
     <MESSAGE value=":bulb: 【java.lang.reflect.Member】 反射元素-成员元素，例如：Constructor/Method/Field" />
     <MESSAGE value=":bulb: 【java.lang.reflect.GenericDeclaration】 反射元素-泛型元素，指有能力引入泛型声明的元素，比如类、方法、构造器" />
     <MESSAGE value=":bulb: 【java.lang.reflect.AnnotatedElement】 反射元素-表示可被注解的元素，例如类、方法、构造器、字段、参数、模块、包等" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.AnnotatedElement】 反射元素-表示可被注解的元素，例如类、方法、构造器、字段、参数、模块、包等" />
+    <MESSAGE value=":bulb: 【java.lang.reflect.Parameter】 反射元素-形参" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.Parameter】 反射元素-形参" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="225" column="31" selection-start-line="225" selection-start-column="31" selection-end-line="225" selection-end-column="31" />
-          <folding>
-            <element signature="n#list#0;n#component#1;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -3969,30 +3955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="16">
-            <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="68" column="52" lean-forward="true" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Parameter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="330" column="4" lean-forward="true" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
+        <state relative-caret-position="1869">
+          <caret line="330" column="4" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
           <folding>
             <element signature="docComment;class#Parameter#0" />
             <element signature="e#2188#2741#0" />
@@ -4041,8 +4007,118 @@
             <element signature="e#12673#12813#1" />
             <element signature="e#12851#13018#0" />
             <element signature="e#12851#13098#0" />
-            <element signature="e#13133#13238#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/NamedPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;class#NamedPackage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Package#0" />
+            <element signature="docComment;method#Package#0;class#Package#0" />
+            <element signature="method#Package#0;class#Package#0" />
+            <element signature="method#Package#1;class#Package#0" />
+            <element signature="docComment;method#getPackage#0;class#Package#0" />
+            <element signature="e#9182#9198#0" />
+            <element signature="method#getPackage#0;class#Package#0" />
+            <element signature="docComment;method#getPackages#0;class#Package#0" />
+            <element signature="method#getPackages#0;class#Package#0" />
+            <element signature="docComment;method#getName#0;class#Package#0" />
+            <element signature="method#getName#0;class#Package#0" />
+            <element signature="docComment;method#getSpecificationTitle#0;class#Package#0" />
+            <element signature="method#getSpecificationTitle#0;class#Package#0" />
+            <element signature="docComment;method#getSpecificationVersion#0;class#Package#0" />
+            <element signature="method#getSpecificationVersion#0;class#Package#0" />
+            <element signature="docComment;method#getSpecificationVendor#0;class#Package#0" />
+            <element signature="method#getSpecificationVendor#0;class#Package#0" />
+            <element signature="docComment;method#getImplementationTitle#0;class#Package#0" />
+            <element signature="method#getImplementationTitle#0;class#Package#0" />
+            <element signature="docComment;method#getImplementationVersion#0;class#Package#0" />
+            <element signature="method#getImplementationVersion#0;class#Package#0" />
+            <element signature="docComment;method#getImplementationVendor#0;class#Package#0" />
+            <element signature="method#getImplementationVendor#0;class#Package#0" />
+            <element signature="docComment;method#isSealed#0;class#Package#0" />
+            <element signature="method#isSealed#0;class#Package#0" />
+            <element signature="docComment;method#isSealed#1;class#Package#0" />
+            <element signature="method#isSealed#1;class#Package#0" />
+            <element signature="e#15150#15206#1" />
+            <element signature="e#15212#15401#1" />
+            <element signature="e#15230#15344#0" />
+            <element signature="docComment;method#isAnnotationPresent#0;class#Package#0" />
+            <element signature="method#isAnnotationPresent#0;class#Package#0" />
+            <element signature="docComment;method#getAnnotations#0;class#Package#0" />
+            <element signature="method#getAnnotations#0;class#Package#0" />
+            <element signature="docComment;method#getAnnotation#0;class#Package#0" />
+            <element signature="method#getAnnotation#0;class#Package#0" />
+            <element signature="docComment;method#getAnnotationsByType#0;class#Package#0" />
+            <element signature="method#getAnnotationsByType#0;class#Package#0" />
+            <element signature="docComment;method#getDeclaredAnnotations#0;class#Package#0" />
+            <element signature="method#getDeclaredAnnotations#0;class#Package#0" />
+            <element signature="docComment;method#getDeclaredAnnotation#0;class#Package#0" />
+            <element signature="method#getDeclaredAnnotation#0;class#Package#0" />
+            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#Package#0" />
+            <element signature="method#getDeclaredAnnotationsByType#0;class#Package#0" />
+            <element signature="docComment;method#isCompatibleWith#0;class#Package#0" />
+            <element signature="method#isCompatibleWith#0;class#Package#0" />
+            <element signature="e#18882#18962#1" />
+            <element signature="e#19116#19268#1" />
+            <element signature="e#19406#19558#1" />
+            <element signature="e#19653#19857#1" />
+            <element signature="docComment;method#hashCode#0;class#Package#0" />
+            <element signature="method#hashCode#0;class#Package#0" />
+            <element signature="docComment;method#toString#0;class#Package#0" />
+            <element signature="method#toString#0;class#Package#0" />
+            <element signature="method#getPackageInfo#0;class#Package#0" />
+            <element signature="e#21292#21357#1" />
+            <element signature="e#21363#21432#1" />
+            <element signature="e#21472#21520#1" />
+            <element signature="e#21526#21732#1" />
+            <element signature="class#21622:21664" />
+            <element signature="docComment;class#VersionInfo#0;class#Package#0" />
+            <element signature="class#VersionInfo#0;class#Package#0" />
+            <element signature="method#VersionInfo#0;class#VersionInfo#0;class#Package#0" />
+            <element signature="method#getInstance#0;class#VersionInfo#0;class#Package#0" />
+            <element signature="e#23148#23205#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="448">
+            <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="512">
+            <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
