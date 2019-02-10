@@ -32,6 +32,7 @@ package java.lang.reflect;
  *
  * @since 1.8
  */
+// 【被注解的参数化类型】
 public interface AnnotatedParameterizedType extends AnnotatedType {
 
     /**
@@ -40,6 +41,7 @@ public interface AnnotatedParameterizedType extends AnnotatedType {
      * @return the potentially annotated actual type arguments of this parameterized type
      * @see ParameterizedType#getActualTypeArguments()
      */
+    // 参数化类型中【被注解的通配符参数】
     AnnotatedType[] getAnnotatedActualTypeArguments();
 
     /**
@@ -61,6 +63,7 @@ public interface AnnotatedParameterizedType extends AnnotatedType {
      *
      * @since 9
      */
+    // 返回复合类型的"外层类型+类型注解"
     @Override
     AnnotatedType getAnnotatedOwnerType();
 }
