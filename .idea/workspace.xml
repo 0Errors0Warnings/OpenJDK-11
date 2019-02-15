@@ -5,7 +5,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.TypeVariable】 类型变量">
+    <list default="true" id="977b9e40-bb66-4bc8-924f-0823bbbc3c27" name="Default Changelist" comment=":bulb: 【java.lang.reflect.ParameterizedType】 参数化类型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/io/StreamTokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/ClassLoader.java" afterDir="false" />
@@ -32,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/Proxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/ProxyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/ProxyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/TypeVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/TypeVariable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/lang/reflect/WildcardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/lang/reflect/WildcardType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/security/SecureClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/security/SecureClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/sql/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/sql/Connection.java" afterDir="false" />
@@ -534,8 +533,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/ForkJoinPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="784" column="19" selection-start-line="784" selection-start-column="7" selection-end-line="784" selection-end-column="21" />
+            <state relative-caret-position="84">
+              <caret line="1848" column="15" selection-start-line="1848" selection-start-column="15" selection-end-line="1848" selection-end-column="15" />
               <folding>
                 <element signature="docComment;class#ForkJoinPool#0" />
                 <element signature="e#35669#35778#0" />
@@ -558,6 +557,7 @@
                 <element signature="e#50642#54815#0" />
                 <element signature="e#57219#57330#0" />
                 <element signature="e#60330#60497#0" />
+                <element signature="e#60733#61316#0" />
                 <element signature="e#60835#61167#0" />
                 <element signature="e#61311#61481#0" />
                 <element signature="e#62012#62167#0" />
@@ -581,8 +581,6 @@
                 <element signature="e#93664#93836#0" />
                 <element signature="e#96223#96404#0" />
                 <element signature="e#97834#97957#0" />
-                <element signature="e#98275#98554#0" />
-                <element signature="e#102272#102855#0" />
                 <element signature="e#103018#103819#0" />
                 <element signature="e#104039#104308#0" />
                 <element signature="e#104438#104608#0" />
@@ -640,7 +638,7 @@
                 <element signature="e#150029#150214#0" />
                 <element signature="e#150887#150943#0" />
                 <element signature="e#151066#151207#0" />
-                <marker date="1550239414496" expanded="true" signature="8588:36116" ph="..." />
+                <marker date="1550254930801" expanded="true" signature="8588:36116" ph="..." />
               </folding>
             </state>
           </provider>
@@ -649,7 +647,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/ForkJoinWorkerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="299">
               <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9839#0" expanded="true" />
@@ -670,25 +668,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/TypeVariable.java">
+        <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="416">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
-                <element signature="docComment;class#TypeVariable#0" />
+                <element signature="docComment;class#ParameterizedType#0" />
+                <element signature="docComment;method#getActualTypeArguments#0;class#ParameterizedType#0" />
+                <element signature="docComment;method#getRawType#0;class#ParameterizedType#0" />
+                <element signature="docComment;method#getOwnerType#0;class#ParameterizedType#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="44" column="75" lean-forward="true" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -697,8 +686,20 @@
         <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="395">
-                <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <first_editor relative-caret-position="427">
+                <caret line="76" column="63" lean-forward="true" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="288">
+                <caret line="45" column="85" lean-forward="true" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
               </first_editor>
               <second_editor />
             </state>
@@ -716,8 +717,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>独占种子</find>
-      <find>内置种子</find>
       <find>探测种子</find>
       <find>空隙</find>
       <find>0x9e3779b9</find>
@@ -746,6 +745,8 @@
       <find>工作队列</find>
       <find>工作组</find>
       <find>工作线程</find>
+      <find>unpark</find>
+      <find>LockSupport</find>
     </findStrings>
     <replaceStrings>
       <replace>moduleName</replace>
@@ -776,8 +777,8 @@
       <replace>执行非并行排序</replace>
       <replace>【工作线程】</replace>
       <replace>【工人队列】</replace>
-      <replace>【工作组】</replace>
       <replace>【工人线程】</replace>
+      <replace>【工作组】</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -794,7 +795,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javax/lang/model/type/ErrorType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/NoType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/DeclaredType.java" />
         <option value="$PROJECT_DIR$/src/javax/lang/model/type/ExecutableType.java" />
@@ -893,6 +893,7 @@
         <option value="$PROJECT_DIR$/src/java/util/concurrent/ThreadLocalRandom.java" />
         <option value="$PROJECT_DIR$/src/java/util/concurrent/ForkJoinWorkerThread.java" />
         <option value="$PROJECT_DIR$/src/java/util/concurrent/ForkJoinPool.java" />
+        <option value="$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java" />
         <option value="$PROJECT_DIR$/已阅代码清单_按功能排序.md" />
         <option value="$PROJECT_DIR$/已阅代码清单_按名称排序.md" />
       </list>
@@ -1092,6 +1093,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenJDK-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenJDK-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1241,10 +1250,10 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/TAG.java&#10;true" />
     <property name="android.sdk.path" value="D:/SDK-IDEA" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550239668368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550256205531" />
     <property name="last.edited.regexp" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/haofupeng" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -1447,14 +1456,7 @@
       <workItem from="1549988472137" duration="319000" />
       <workItem from="1550041695493" duration="9409000" />
       <workItem from="1550057471290" duration="33995000" />
-      <workItem from="1550146010736" duration="44018000" />
-    </task>
-    <task id="LOCAL-00306" summary=":bulb: 【sun.nio.ch.Interruptible】 线程中断回调标记">
-      <created>1547308725932</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1547308725932</updated>
+      <workItem from="1550146010736" duration="54355000" />
     </task>
     <task id="LOCAL-00307" summary=":recycle: 【java.lang.Integer】 更新Integer缓存的描述">
       <created>1547318507276</created>
@@ -1792,11 +1794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550077551557</updated>
     </task>
-    <option name="localTasksCounter" value="355" />
+    <task id="LOCAL-00355" summary=":bulb: 【java.lang.reflect.TypeVariable】 类型变量">
+      <created>1550239734945</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1550239734946</updated>
+    </task>
+    <option name="localTasksCounter" value="356" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2384789000" />
+    <option name="totallyTimeSpent" value="2395126000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1992,7 +2001,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value=":white_check_mark: 【java.io.Serializable】 静态字段不会被序列化" />
     <MESSAGE value=":white_check_mark: 【java.io.Serializable】 序列化与继承" />
     <MESSAGE value=":white_check_mark: 【java.io.Serializable】 在待序列化的类中自定义序列化/反序列化逻辑" />
     <MESSAGE value=":white_check_mark: 【java.io.Serializable】 维持反序列化对象的单例模式" />
@@ -2017,196 +2025,14 @@
     <MESSAGE value=":bulb: 【java.lang.reflect.AnnotatedWildcardType】 【被注解的通配符类型】" />
     <MESSAGE value=":bulb: 【java.lang.reflect.AnnotatedWildcardType】 【被注解的数组类型】" />
     <MESSAGE value=":bulb: 【java.lang.reflect.Type】 代表Java中的“类型”" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.Type】 代表Java中的“类型”" />
+    <MESSAGE value=":bulb: 【java.lang.reflect.TypeVariable】 类型变量" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bulb: 【java.lang.reflect.TypeVariable】 类型变量" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Member#0" />
-            <element signature="docComment;field#PUBLIC#0;class#Member#0" />
-            <element signature="docComment;field#DECLARED#0;class#Member#0" />
-            <element signature="docComment;method#getDeclaringClass#0;class#Member#0" />
-            <element signature="docComment;method#getName#0;class#Member#0" />
-            <element signature="docComment;method#getModifiers#0;class#Member#0" />
-            <element signature="docComment;method#isSynthetic#0;class#Member#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Executable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#Executable#0" />
-            <element signature="e#2247#2315#0" />
-            <element signature="e#2247#2340#0" />
-            <element signature="e#2568#2698#0" />
-            <element signature="e#2995#3809#0" />
-            <element signature="e#4358#4439#0" />
-            <element signature="e#4718#4931#0" />
-            <element signature="e#5226#5512#0" />
-            <element signature="e#5226#5610#0" />
-            <element signature="e#5620#5896#0" />
-            <element signature="e#5620#6009#0" />
-            <element signature="e#6019#6382#0" />
-            <element signature="e#6464#8047#0" />
-            <element signature="e#6464#8268#0" />
-            <element signature="e#8278#9036#0" />
-            <element signature="e#8278#9441#0" />
-            <element signature="e#9100#9159#0" />
-            <element signature="e#9672#10094#0" />
-            <element signature="e#10183#11474#0" />
-            <element signature="e#10183#11756#0" />
-            <element signature="e#11984#12073#0" />
-            <element signature="e#11984#12312#0" />
-            <element signature="e#12322#12411#0" />
-            <element signature="e#12322#12729#0" />
-            <element signature="e#12739#12771#0" />
-            <element signature="e#12739#12917#0" />
-            <element signature="e#12927#14488#0" />
-            <element signature="e#14576#15207#0" />
-            <element signature="e#14576#15580#0" />
-            <element signature="e#15590#16265#0" />
-            <element signature="e#16358#17540#0" />
-            <element signature="e#16358#17977#0" />
-            <element signature="e#17987#18601#0" />
-            <element signature="e#17987#18954#0" />
-            <element signature="e#19176#19327#0" />
-            <element signature="e#19403#19736#0" />
-            <element signature="e#19403#19853#0" />
-            <element signature="e#19989#20045#0" />
-            <element signature="e#20097#20161#0" />
-            <element signature="e#20271#20370#0" />
-            <element signature="e#20440#20546#0" />
-            <element signature="e#21023#21383#0" />
-            <element signature="e#21174#21355#1" />
-            <element signature="e#21226#21320#1" />
-            <element signature="e#21393#21657#0" />
-            <element signature="e#21667#22294#0" />
-            <element signature="e#21830#21900#1" />
-            <element signature="e#21906#22288#1" />
-            <element signature="e#22304#23325#0" />
-            <element signature="e#22431#23254#0" />
-            <element signature="e#22742#22810#1" />
-            <element signature="e#22930#23210#1" />
-            <element signature="e#23070#23150#1" />
-            <element signature="e#23274#23319#0" />
-            <element signature="e#23335#25002#0" />
-            <element signature="e#23415#24931#0" />
-            <element signature="e#23659#23914#1" />
-            <element signature="e#23787#23858#1" />
-            <element signature="e#24174#24427#1" />
-            <element signature="e#24611#24887#1" />
-            <element signature="e#24747#24827#1" />
-            <element signature="e#24951#24996#0" />
-            <element signature="e#25012#25165#0" />
-            <element signature="e#25012#27128#0" />
-            <element signature="e#25287#25349#0" />
-            <element signature="e#25458#25509#1" />
-            <element signature="e#25515#27122#1" />
-            <element signature="e#25892#25942#0" />
-            <element signature="e#26034#26652#1" />
-            <element signature="e#26086#26638#1" />
-            <element signature="e#26209#26425#1" />
-            <element signature="e#26235#26282#0" />
-            <element signature="e#26431#26620#1" />
-            <element signature="e#26658#27088#1" />
-            <element signature="e#26676#26725#0" />
-            <element signature="e#27138#27403#0" />
-            <element signature="e#27179#27232#0" />
-            <element signature="e#27313#27360#1" />
-            <element signature="e#27463#27575#0" />
-            <element signature="e#27585#28365#0" />
-            <element signature="e#28038#28336#1" />
-            <element signature="e#28375#28609#0" />
-            <element signature="e#28375#28934#0" />
-            <element signature="e#28944#29459#0" />
-            <element signature="e#29153#29204#0" />
-            <element signature="e#29469#30456#0" />
-            <element signature="e#29849#30450#1" />
-            <element signature="e#30005#30286#1" />
-            <element signature="e#30150#30272#1" />
-            <element signature="e#30338#30440#1" />
-            <element signature="e#30466#31368#0" />
-            <element signature="e#30641#31333#1" />
-            <element signature="e#30724#30779#0" />
-            <element signature="e#30814#30961#0" />
-            <element signature="e#31069#31175#1" />
-            <element signature="e#31181#31280#1" />
-            <element signature="e#31432#32283#0" />
-            <element signature="e#31627#32251#1" />
-            <element signature="e#31660#32241#0" />
-            <element signature="e#31724#32227#1" />
-            <element signature="e#31825#31912#1" />
-            <element signature="e#31918#32156#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/Parameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1869">
-          <caret line="330" column="4" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Parameter#0" />
-            <element signature="e#2188#2741#0" />
-            <element signature="e#2188#2953#0" />
-            <element signature="e#3178#3356#0" />
-            <element signature="e#3178#3436#0" />
-            <element signature="e#3661#3948#0" />
-            <element signature="e#3661#4202#0" />
-            <element signature="e#4069#4176#1" />
-            <element signature="e#4212#4507#0" />
-            <element signature="e#4212#4785#0" />
-            <element signature="e#4634#4750#1" />
-            <element signature="e#5011#5543#0" />
-            <element signature="e#5011#5906#0" />
-            <element signature="e#5605#5664#0" />
-            <element signature="e#6132#6716#0" />
-            <element signature="e#6132#7281#0" />
-            <element signature="e#7505#7537#0" />
-            <element signature="e#7505#7652#0" />
-            <element signature="e#7662#7751#0" />
-            <element signature="e#7662#7990#0" />
-            <element signature="e#8000#8089#0" />
-            <element signature="e#8000#8407#0" />
-            <element signature="e#8417#8449#0" />
-            <element signature="e#8417#8591#0" />
-            <element signature="e#8601#8662#0" />
-            <element signature="e#8601#8976#0" />
-            <element signature="e#8782#8841#0" />
-            <element signature="e#8986#9047#0" />
-            <element signature="e#8986#9415#0" />
-            <element signature="e#9212#9271#0" />
-            <element signature="e#9425#9764#0" />
-            <element signature="e#9425#9932#0" />
-            <element signature="e#10156#10306#0" />
-            <element signature="e#10156#10409#0" />
-            <element signature="e#10419#10790#0" />
-            <element signature="e#10419#10955#0" />
-            <element signature="e#10965#11262#0" />
-            <element signature="e#10965#11395#0" />
-            <element signature="e#11405#11779#0" />
-            <element signature="e#11405#11896#0" />
-            <element signature="e#11906#12148#0" />
-            <element signature="e#11906#12290#0" />
-            <element signature="e#12413#12595#0" />
-            <element signature="e#12413#12841#0" />
-            <element signature="e#12673#12813#1" />
-            <element signature="e#12851#13018#0" />
-            <element signature="e#12851#13098#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/NamedPackage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -2298,33 +2124,6 @@
           <folding>
             <element signature="docComment;class#GenericDeclaration#0" />
             <element signature="docComment;method#getTypeParameters#0;class#GenericDeclaration#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="docComment;class#AnnotatedElement#0" />
-            <element signature="docComment;method#isAnnotationPresent#0;class#AnnotatedElement#0" />
-            <element signature="method#isAnnotationPresent#0;class#AnnotatedElement#0" />
-            <element signature="docComment;method#getAnnotations#0;class#AnnotatedElement#0" />
-            <element signature="docComment;method#getAnnotation#0;class#AnnotatedElement#0" />
-            <element signature="docComment;method#getAnnotationsByType#0;class#AnnotatedElement#0" />
-            <element signature="method#getAnnotationsByType#0;class#AnnotatedElement#0" />
-            <element signature="e#16002#16323#1" />
-            <element signature="e#16123#16313#1" />
-            <element signature="e#16141#16194#0" />
-            <element signature="docComment;method#getDeclaredAnnotations#0;class#AnnotatedElement#0" />
-            <element signature="docComment;method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
-            <element signature="method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
-            <element signature="e#18280#18544#1" />
-            <element signature="e#18350#18534#1" />
-            <element signature="e#18368#18422#0" />
-            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
-            <element signature="method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
           </folding>
         </state>
       </provider>
@@ -2908,18 +2707,6 @@
             <element signature="e#177090#177165#0" />
             <element signature="e#177183#177236#0" />
             <element signature="e#177254#177319#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedArrayType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#AnnotatedArrayType#0" />
-            <element signature="docComment;method#getAnnotatedGenericComponentType#0;class#AnnotatedArrayType#0" />
-            <element signature="docComment;method#getAnnotatedOwnerType#0;class#AnnotatedArrayType#0" />
           </folding>
         </state>
       </provider>
@@ -5612,10 +5399,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="253" column="17" selection-start-line="253" selection-start-column="17" selection-end-line="253" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#AnnotatedElement#0" />
+            <element signature="docComment;method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+            <element signature="method#isAnnotationPresent#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotations#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="method#getAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="e#16002#16323#1" />
+            <element signature="e#16123#16313#1" />
+            <element signature="e#16141#16194#0" />
+            <element signature="docComment;method#getDeclaredAnnotations#0;class#AnnotatedElement#0" />
+            <element signature="docComment;method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="method#getDeclaredAnnotation#0;class#AnnotatedElement#0" />
+            <element signature="e#18280#18544#1" />
+            <element signature="e#18350#18534#1" />
+            <element signature="e#18368#18422#0" />
+            <element signature="docComment;method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
+            <element signature="method#getDeclaredAnnotationsByType#0;class#AnnotatedElement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/TypeVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#TypeVariable#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#17972#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#LockSupport#0" />
+            <element signature="docComment;method#unpark#0;class#LockSupport#0" />
+            <element signature="docComment;method#park#0;class#LockSupport#0" />
+            <element signature="docComment;method#parkNanos#0;class#LockSupport#0" />
+            <element signature="docComment;method#parkUntil#0;class#LockSupport#0" />
+            <element signature="docComment;method#park#1;class#LockSupport#0" />
+            <element signature="docComment;method#parkNanos#1;class#LockSupport#0" />
+            <element signature="docComment;method#parkUntil#1;class#LockSupport#0" />
+            <element signature="docComment;method#nextSecondarySeed#0;class#LockSupport#0" />
+            <element signature="docComment;method#getThreadId#0;class#LockSupport#0" />
+            <element signature="docComment;method#getBlocker#0;class#LockSupport#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1269" column="16" selection-start-line="1269" selection-start-column="11" selection-end-line="1269" selection-end-column="35" />
+        <state relative-caret-position="49">
+          <caret line="2061" column="22" lean-forward="true" selection-start-line="2061" selection-start-column="22" selection-end-line="2061" selection-end-column="22" />
           <folding>
             <element signature="docComment;class#Thread#0" />
             <element signature="e#5559#5622#0" />
@@ -5819,7 +5665,6 @@
             <element signature="e#80382#80448#0" />
             <element signature="e#80842#81003#0" />
             <element signature="e#81122#82266#0" />
-            <element signature="e#81122#85473#0" />
             <element signature="e#82313#82392#0" />
             <element signature="e#82442#82697#0" />
             <element signature="e#82752#83047#0" />
@@ -5847,10 +5692,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/ForkJoinWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9839#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#getPool#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#getPoolIndex#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#run#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#onStart#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#onTermination#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;method#afterTopLevelExec#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;field#innocuousThreadGroup#0;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
+            <element signature="docComment;field#INNOCUOUS_ACC#0;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/AnnotatedArrayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#AnnotatedArrayType#0" />
+            <element signature="docComment;method#getAnnotatedGenericComponentType#0;class#AnnotatedArrayType#0" />
+            <element signature="docComment;method#getAnnotatedOwnerType#0;class#AnnotatedArrayType#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/ForkJoinPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="784" column="19" selection-start-line="784" selection-start-column="7" selection-end-line="784" selection-end-column="21" />
+        <state relative-caret-position="84">
+          <caret line="1848" column="15" selection-start-line="1848" selection-start-column="15" selection-end-line="1848" selection-end-column="15" />
           <folding>
             <element signature="docComment;class#ForkJoinPool#0" />
             <element signature="e#35669#35778#0" />
@@ -5873,6 +5758,7 @@
             <element signature="e#50642#54815#0" />
             <element signature="e#57219#57330#0" />
             <element signature="e#60330#60497#0" />
+            <element signature="e#60733#61316#0" />
             <element signature="e#60835#61167#0" />
             <element signature="e#61311#61481#0" />
             <element signature="e#62012#62167#0" />
@@ -5896,8 +5782,6 @@
             <element signature="e#93664#93836#0" />
             <element signature="e#96223#96404#0" />
             <element signature="e#97834#97957#0" />
-            <element signature="e#98275#98554#0" />
-            <element signature="e#102272#102855#0" />
             <element signature="e#103018#103819#0" />
             <element signature="e#104039#104308#0" />
             <element signature="e#104438#104608#0" />
@@ -5955,28 +5839,7 @@
             <element signature="e#150029#150214#0" />
             <element signature="e#150887#150943#0" />
             <element signature="e#151066#151207#0" />
-            <marker date="1550239414496" expanded="true" signature="8588:36116" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/util/concurrent/ForkJoinWorkerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9839#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#getPool#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#getPoolIndex#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#run#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#onStart#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#onTermination#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;method#afterTopLevelExec#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;field#innocuousThreadGroup#0;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
-            <element signature="docComment;field#INNOCUOUS_ACC#0;class#InnocuousForkJoinWorkerThread#0;class#ForkJoinWorkerThread#0" />
+            <marker date="1550254930801" expanded="true" signature="8588:36116" ph="..." />
           </folding>
         </state>
       </provider>
@@ -5984,8 +5847,8 @@
     <entry file="file://$PROJECT_DIR$/已阅代码清单_按功能排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="44" column="75" lean-forward="true" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+          <first_editor relative-caret-position="288">
+            <caret line="45" column="85" lean-forward="true" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
           </first_editor>
           <second_editor />
         </state>
@@ -5994,19 +5857,22 @@
     <entry file="file://$PROJECT_DIR$/已阅代码清单_按名称排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="395">
-            <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <first_editor relative-caret-position="427">
+            <caret line="76" column="63" lean-forward="true" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/TypeVariable.java">
+    <entry file="file://$PROJECT_DIR$/src/java/lang/reflect/ParameterizedType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="416">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
-            <element signature="docComment;class#TypeVariable#0" />
+            <element signature="docComment;class#ParameterizedType#0" />
+            <element signature="docComment;method#getActualTypeArguments#0;class#ParameterizedType#0" />
+            <element signature="docComment;method#getRawType#0;class#ParameterizedType#0" />
+            <element signature="docComment;method#getOwnerType#0;class#ParameterizedType#0" />
           </folding>
         </state>
       </provider>
